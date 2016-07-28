@@ -348,10 +348,6 @@ p {
     clear: both;
 }
 
-.sub-content h2 {
-    font-size: 2em;
-}
-
 #about, #design, #connect {
     width: 25%;
     float: left;
