@@ -328,6 +328,10 @@ p {
     font-size: 1em;
 }
 
+.sub-content h2 {
+    font-size: 2em;
+}
+
 #main-content {
     padding-top: 5%;
     padding-bottom: 5%;
