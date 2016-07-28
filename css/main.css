@@ -297,7 +297,9 @@ nav ul li a {
 }
 
 #logo img {
-    width: 10%;
+    width: 25%;
+    margin-top: -20px;
+    margin-right: -10px;
 }
 
 #main-content {
