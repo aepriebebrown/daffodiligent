@@ -111,6 +111,15 @@ header {
     font-size: 1em;
 }
 
+#logo a {
+    text-decoration: none;
+    color: #1a1a1a;
+}
+
+#logo a:hover {
+    color: #efae3C;
+}
+
 #logo img {
     margin-top: -5%;
     width: 25%;
@@ -337,6 +346,10 @@ p {
     padding-bottom: 5%;
     margin-bottom: 7%;
     clear: both;
+}
+
+.sub-content h2 {
+    font-size: 2em;
 }
 
 #about, #design, #connect {
