@@ -104,14 +104,17 @@ header {
 }
 
 #logo {
-    padding-top: 3%;
-    padding-bottom: 3%;
+    padding-top: 8%;
+    padding-bottom: 6%;
     margin: auto;
     text-align: center;
+    font-size: 1em;
 }
 
 #logo img {
-    width: 13%;
+    margin-top: -5%;
+    width: 25%;
+    margin-right: -15px;
 }
 
 nav {
@@ -259,7 +262,23 @@ footer {
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
-/*Tablet and desktop styles*/
+/*Tablet styles*/
+@media screen and (min-width: 768px){
+
+#logo {
+    font-size: 1.75em;
+}
+
+p {
+    font-size: 2em;
+}
+
+.sub-content h2 {
+    font-size: 3em;
+}
+}
+
+/*Desktop styles*/
 @media screen and (min-width: 1024px) {
 
 .mobile {
@@ -271,8 +290,11 @@ footer {
 }
 
 #logo {
+    padding-top: 3%;
+    padding-bottom: 3%;
     float: left;
     width: 30%;
+    font-size: 1em;
 }
 
 nav {
@@ -300,6 +322,10 @@ nav ul li a {
     width: 25%;
     margin-top: -20px;
     margin-right: -10px;
+}
+
+p {
+    font-size: 1em;
 }
 
 #main-content {
