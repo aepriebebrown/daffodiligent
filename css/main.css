@@ -144,7 +144,7 @@ a:hover {
 }
 
 .sub-content img {
-    width: 100%;
+    width: 95%;
     border: 5px solid lightgray;
 }
 
@@ -312,7 +312,7 @@ nav ul li a {
 #about, #design, #connect {
     width: 25%;
     float: left;
-    margin-left: 7%;
+    margin-left: 6.25%;
 }
 
 
