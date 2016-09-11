@@ -117,7 +117,7 @@ header {
 }
 
 #logo a:hover {
-    color: #efae3C;
+    color: #f4ba4c;
 }
 
 #logo img {
@@ -131,7 +131,7 @@ nav {
 }
 
 a:hover {
-    color: #efae3C;
+    color: #f4ba4c;
 }
 
 #wrapper {
@@ -175,7 +175,7 @@ a:hover {
 }
 
 #connect a:hover{
-    color: #EFAE3C;
+    color: #f4ba4c;
 }
 
 #connect i {
@@ -190,7 +190,60 @@ footer {
     padding-top: 2%;
 }
 
+/*About page styles========================================================*/
+.about-content {
+    width: 90%;
+    display: block;
+    margin: auto;
+}
 
+.about-content img {
+    width: 95%;
+    border-radius: 50%;
+    border: 5px solid lightgray;
+}
+
+.about-content h2 {
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 2em;
+}
+
+.about-content a {
+    text-decoration: none;
+    color: #ff6d4b;
+}
+
+.love {
+    font-size: 1.25em;
+    font-weight: bolder;
+}
+
+#bio-introduction {
+    padding-top: 2%;
+}
+
+.big-emoji {
+    font-size: 1.5em;
+}
+
+#day-in-the-life-content {
+    background: #f2f2f2;
+}
+
+#day-in-the-life-content p{
+    background: lightgray;
+}
+
+#connect-footer a {
+    text-decoration: none;
+    color: #1a1a1a;
+    font-size: 2em;
+    letter-spacing: 10px;
+}
+
+#connect-footer a:hover{
+    color: #f4ba4c;
+}
 
 /* ==========================================================================
    Helper classes
@@ -285,6 +338,13 @@ p {
 .sub-content h2 {
     font-size: 3em;
 }
+
+/*About Tablet Styles*/
+
+.about-content img {
+    width: 75%
+}
+
 }
 
 /*Desktop styles*/
@@ -354,8 +414,38 @@ p {
     margin-left: 6.25%;
 }
 
+/*About Desktop Styles================================================*/
+
+.about-content img {
+    width: 20%;
+    float: left;
+    vertical-align: middle;
+}
+
+#bio-introduction {
+    clear:both;
+    display: flex;
+    align-items: center;
+}
+
+#bio-introduction p {
+    padding-left: 5%;
+}
+
+#bio-background {
+    clear:both;
+    padding-top: 5%;
+}
+
+#question-1, #question-2, #question-3 {
+    width: 25%;
+    float: left;
+    margin-left: 6.25%;
+}
 
 }
+
+/*====================================================================*/
 
 @media print,
        (-webkit-min-device-pixel-ratio: 1.25),
