@@ -408,13 +408,24 @@ p {
     clear: both;
 }
 
-#about, #design, #connect {
+.three-col {
     width: 25%;
     float: left;
     margin-left: 6.25%;
 }
 
 /*About Desktop Styles================================================*/
+
+.two-thirds {
+    width: 50%;
+    float: right;
+    margin-left: 6.25%;
+}
+
+.project-clear {
+    clear:both;
+    padding-bottom: 30%;
+}
 
 .about-content img {
     width: 20%;
