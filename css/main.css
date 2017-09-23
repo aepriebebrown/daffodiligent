@@ -104,11 +104,11 @@ header {
 }
 
 #logo {
-    padding-top: 8%;
-    padding-bottom: 6%;
-    margin: auto;
-    text-align: center;
     font-size: 1em;
+}
+
+#logo li {
+    list-style-type: none;
 }
 
 #logo a {
@@ -121,9 +121,8 @@ header {
 }
 
 #logo img {
-    margin-top: -5%;
-    width: 25%;
-    margin-right: -15px;
+    width: 2em;
+    vertical-align: middle;
 }
 
 nav {
@@ -151,6 +150,7 @@ a:hover {
 
 .sub-content {
     width: 90%;
+    max-width: 400px;
     display: block;
     margin: auto;
 }
@@ -191,6 +191,25 @@ footer {
 }
 
 /*About page styles========================================================*/
+.project-img {
+    height: 0;
+    padding-bottom: 95%;
+    border: 5px solid lightgray;
+    position: relative;
+}
+
+.project-img img {
+    border: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.project h2 {
+    font-family: 'Spinnaker', 'sans-serif';
+}
+
 .about-content {
     width: 90%;
     display: block;
@@ -359,27 +378,28 @@ p {
 }
 
 #logo {
-    padding-top: 3%;
-    padding-bottom: 3%;
-    float: left;
-    width: 30%;
     font-size: 1em;
+    width: 40%;
+    float: left;
+}
+
+#logo ul li {
+    display: inline;
+    list-style-type: none;
 }
 
 nav {
     display: block;
-    float: right;
     width: 60%;
+    text-align: right;
+    float: right;
 }
 
 nav ul li {
-    float: right;
-    margin: 0;
-    padding: 0 4%;
-    position: relative;
+    display: inline;
     list-style-type: none;
-    display: block;
-    position: relative;
+    padding: 0 3%;
+    margin: 0;
 }
 
 nav ul li a {
@@ -387,18 +407,22 @@ nav ul li a {
     color: #1a1a1a;
 }
 
-#logo img {
-    width: 25%;
-    margin-top: -20px;
-    margin-right: -10px;
-}
-
 p {
     font-size: 1em;
 }
 
+.sub-content {
+    max-width: 1600px;
+}
+
 .sub-content h2 {
     font-size: 2em;
+}
+
+.three-col {
+    width: 25%;
+    float: left;
+    margin-left: 6.25%;
 }
 
 #main-content {
@@ -408,22 +432,34 @@ p {
     clear: both;
 }
 
-.three-col {
-    width: 25%;
-    float: left;
-    margin-left: 6.25%;
-}
 
 /*About Desktop Styles================================================*/
+
+.project-img {
+    width: 25%;
+    height: 0;
+    padding-bottom: 25%;
+    float: left;
+    margin-left: 6.25%;
+    border: 5px solid lightgray;
+    position: relative;
+}
+
+.project-img img {
+    border: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
 .two-thirds {
     width: 50%;
     float: right;
-    margin-left: 6.25%;
+    margin-right: 6.25%;
 }
 
-.project-clear {
-    clear:both;
+.project {
     padding-bottom: 30%;
 }
 
