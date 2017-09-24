@@ -111,12 +111,12 @@ header {
     list-style-type: none;
 }
 
-#logo a {
+a {
     text-decoration: none;
     color: #1a1a1a;
 }
 
-#logo a:hover {
+a:hover {
     color: #f4ba4c;
 }
 
@@ -208,6 +208,30 @@ footer {
 
 .project h2 {
     font-family: 'Spinnaker', 'sans-serif';
+}
+
+.project-description a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.project-description a:hover {
+    color: #f4ba4c;
+}
+
+button {
+    background: lightgray;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 30px;
+}
+
+a button {
+    color: #1a1a1a;
+}
+
+button:hover {
+    background: #f4ba4c;
 }
 
 .about-content {
@@ -453,7 +477,7 @@ p {
     transform: translate(-50%, -50%);
 }
 
-.two-thirds {
+.project-text {
     width: 50%;
     float: right;
     margin-right: 6.25%;
