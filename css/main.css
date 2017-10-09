@@ -191,6 +191,10 @@ footer {
 }
 
 /*Design page styles========================================================*/
+.project {
+    overflow: visible;
+}
+
 .project-img {
     height: 0;
     padding-bottom: 95%;
@@ -465,7 +469,7 @@ p {
 }
 
 
-/*About Desktop Styles================================================*/
+/*Design Desktop Styles================================================*/
 
 .project-img {
     width: 25%;
